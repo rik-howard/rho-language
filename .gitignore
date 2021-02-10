@@ -1,0 +1,6 @@
+
+.directory
+*/bin/test-unit
+*/bin/test-batch
+*/bin/test-custom
+lib
