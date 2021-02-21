@@ -1,0 +1,12 @@
+
+
+
+Direct Analysis
+We confirm that the direct definition of fix ('f') is syntactic.
+'
+    0 ø ;:f^g·g·fgf :~> 2 ø ;:f^0;:1·f0·01f
+'
+We confirm that the application of fix to an abstraction is syntactic.
+'
+    0 ø ·;:f^g·g·fgf^oo :~> 4 ø ;:3^11·;:f^0;:2·f0·02f3
+'

@@ -1,0 +1,12 @@
+
+
+
+Alternative Analysis
+We confirm that the alternative definition of fix (`f`) is syntactic.
+'
+    0 ø ;:f^g;:x·gxxf :~> 1 ø ;:f^0;:x·0xxf
+'
+We confirm that the application of fix to an abstraction is syntactic.
+'
+    0 ø ·;:f^g;:x·gxxf^oo :~>  3 ø ;:2^11·;:f^0;:x·0xxf2
+'

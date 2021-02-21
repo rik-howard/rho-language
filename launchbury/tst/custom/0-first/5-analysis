@@ -1,0 +1,93 @@
+
+
+
+First Analysis
+Zero operators:
+'
+    0 ø i :~> 0 ø i
+'
+One operator
+'
+    0 ø ·fa :~> 0 ø ·fa
+'
+Two operators: syntactic
+'
+    0 ø ·^pba :~> 1 ø ·^0ba
+    0 ø ·f^pb :~> 2 ø ;:1^0b·f1
+    0 ø ··faa :~> 0 ø ··faa
+    0 ø ·f·fa :~> 1 ø ;:0·fa·f0
+'
+Three operators: syntactic
+'
+    0 ø ·^p^pba :~> 2 ø ·^0^1ba
+    0 ø ·^pb^pb :~> 3 ø ;:2^1b·^0b2
+    0 ø ·^p·faa :~> 1 ø ·^0·faa
+    0 ø ·^pb·fa :~> 2 ø ;:1·fa·^0b1
+    0 ø ·^pb^pb :~> 3 ø ;:2^1b·^0b2
+    0 ø ·f^p^pb :~> 3 ø ;:2^0^1b·f2
+    0 ø ··fa^pb :~> 2 ø ;:1^0b··fa1
+    0 ø ·f^p·fa :~> 2 ø ;:1^0·fa·f1
+    0 ø ··^pbaa :~> 1 ø ··^0baa
+    0 ø ··f^pba :~> 2 ø ·;:1^0b·f1a
+    0 ø ··fa^pb :~> 2 ø ;:1^0b··fa1
+    0 ø ···faaa :~> 0 ø ···faaa
+    0 ø ··f·faa :~> 1 ø ·;:0·fa·f0a
+    0 ø ··fa·fa :~> 1 ø ;:0·fa··fa0
+    0 ø ·^pb·fa :~> 2 ø ;:1·fa·^0b1
+    0 ø ·f·^pba :~> 2 ø ;:1·^0ba·f1
+    0 ø ·f·f^pb :~> 3 ø ;:2;:1^0b·f1·f2
+    0 ø ··fa·fa :~> 1 ø ;:0·fa··fa0
+    0 ø ·f··faa :~> 1 ø ;:0··faa·f0
+    0 ø ·f·f·fa :~> 2 ø ;:1;:0·fa·f0·f1
+'
+One operator: normal form
+'
+    0 ø ^pb :~> 1 ø ^0b
+'
+Two operators: normal form
+'
+    0 ø ^p^pb :~> 2 ø ^0^1b
+    0 ø ^p·fa :~> 1 ø ^0·fa
+'
+Three operators: normal form
+'
+    0 ø ^p^p^pb :~> 3 ø ^0^1^2b
+    0 ø ^p^p·fa :~> 2 ø ^0^1·fa
+    0 ø ^p·^pba :~> 2 ø ^0·^1ba
+    0 ø ^p·f^pb :~> 3 ø ^0;:2^1b·f2
+'
+See the comment in "tst/custom/0-first/5-analysis" for the non-syntactic terms!
+®
+Two operators: non-syntactic
+"
+    0 ø ^^pbb :~>
+    0 ø ^·fab :~>
+"
+Three operators: non-syntactic
+"
+    0 ø ^^^pbbb :~>
+    0 ø ^^p^pbb :~>
+    0 ø ^^pb^pb :~>
+    0 ø ^^·fabb :~>
+    0 ø ^^p·fab :~>
+    0 ø ^^pb·fa :~>
+    0 ø ^^pb^pb :~>
+    0 ø ^p^^pbb :~>
+    0 ø ^·fa^pb :~>
+    0 ø ^p^·fab :~>
+    0 ø ^·^pbab :~>
+    0 ø ^·f^pbb :~>
+    0 ø ^·fa^pb :~>
+    0 ø ^··faab :~>
+    0 ø ^·f·fab :~>
+    0 ø ^·fa·fa :~>
+    0 ø ^^pb·fa :~>
+    0 ø ^·fa·fa :~>
+    0 ø ^p··faa :~>
+    0 ø ^p·f·fa :~>
+    0 ø ·^^pbba :~>
+    0 ø ·^·faba :~>
+    0 ø ·f^^pbb :~>
+    0 ø ·f^·fab :~>
+"
+™

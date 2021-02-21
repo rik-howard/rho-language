@@ -1,0 +1,42 @@
+
+
+
+First Execution
+Zero operators:
+'
+    0 ;:i^pbø i :~> 1 ;:i^pbø ^0b
+'
+One operator:
+'
+    0 ;:a^pb;:f^ooø ·fa :~> 2 ;:a^pb;:f^ooø ^1b
+'
+Two operators
+'
+    0 ;:a^pbø ·^ooa       :~> 2 ;:a^pbø ^1b
+    0 ;:f^ooø ·f^pb       :~> 4 ;:1^0b;:f^ooø ^3b
+    0 ;:a^oo;:f^ooø ··faa :~> 3 ;:a^oo;:f^ooø ^22
+    0 ;:a^pb;:f^ooø ·f·fa :~> 5 ;:0^3b;:a^pb;:f^ooø ^4b
+'
+Three operators
+'
+    0 ø ·^p^pba             :~> 2 ø ^1b
+    0 ø ·^oo^pb             :~> 4 ;:2^1bø ^3b
+    0 ;:a^pb;:f^ooø ·^p·faa :~> 3 ;:a^pb;:f^ooø ^2b
+    0 ;:a^pb;:f^ooø ·^oo·fa :~> 5 ;:1^3b;:a^pb;:f^ooø ^4b
+    0 ø ·^oo^pb             :~> 4 ;:2^1bø ^3b
+    0 ;:f^ooø ·f^p^pb       :~> 6 ;:2^0^1b;:f^ooø ^4^5b
+    0 ;:a^oo;:f^ooø ··fa^pb :~> 5 ;:1^0b;:a^oo;:f^ooø ^4b
+    0 ;:f^ooø ·f^p·fa       :~> 4 ;:1^0·fa;:f^ooø ^3·fa
+    0 ;:a^ooø ··^ooaa       :~> 3 ;:a^ooø ^22
+    0 ;:a^pb;:f^ooø ··f^ooa :~> 5 ;:1^00;:a^pb;:f^ooø ^4b
+    0 ;:a^oo;:f^ooø ··fa^pb :~> 5 ;:1^0b;:a^oo;:f^ooø ^4b
+    0 ;:a^oo;:f^ooø ···faaa :~> 4 ;:a^oo;:f^ooø ^33
+    0 ;:a^oo;:f^ooø ··f·faa :~> 6 ;:0^33;:a^oo;:f^ooø ^55
+    0 ;:a^oo;:f^ooø ··fa·fa :~> 6 ;:0^44;:a^oo;:f^ooø ^55
+    0 ;:a^oo;:f^ooø ·^oo·fa :~> 5 ;:1^33;:a^oo;:f^ooø ^44
+    0 ;:a^pb;:f^ooø ·f·^ooa :~> 5 ;:1^3b;:a^pb;:f^ooø ^4b
+    0 ;:f^ooø ·f·f^pb       :~> 7 ;:2^5b;:1^0b;:f^ooø ^6b
+    0 ;:a^oo;:f^ooø ··fa·fa :~> 6 ;:0^44;:a^oo;:f^ooø ^55
+    0 ;:a^oo;:f^ooø ·f··faa :~> 6 ;:0^44;:a^oo;:f^ooø ^55
+    0 ;:a^pb;:f^ooø ·f·f·fa :~> 8 ;:1^6b;:0^5b;:a^pb;:f^ooø ^7b
+'

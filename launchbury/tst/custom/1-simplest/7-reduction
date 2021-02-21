@@ -1,0 +1,11 @@
+
+
+
+Simplest Reduction
+'
+    0 ø ;:xxx :~> 0 ;:xxø x
+'
+Then
+"
+    0 ;:xxø x :~> unassigned variable: x
+"

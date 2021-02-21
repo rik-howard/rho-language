@@ -1,0 +1,43 @@
+
+
+
+First Reduction
+Two operators: syntactic: case 4
+'
+    1 ;:a^pb;:f^ooø ;:0·fa·f0       :~> 1 ;:0·fa;:a^pb;:f^ooø ·f0
+    1 ;:0·fa;:a^pb;:f^ooø ·f0       :~> 2 ;:0·fa;:a^pb;:f^ooø ·^110
+    2 ;:0·fa;:a^pb;:f^ooø ·^110 ·f0 :~> 2 ;:0·fa;:a^pb;:f^ooø 0
+    2 ;:0·fa;:a^pb;:f^ooø 0         :~> 3 ;:0·^22a;:a^pb;:f^ooø 0
+    3 ;:0·^22a;:a^pb;:f^ooø 0       :~> 3 ;:0a;:a^pb;:f^ooø 0
+    3 ;:0a;:a^pb;:f^ooø 0           :~> 4 ;:0^3b;:a^pb;:f^ooø 0
+    4 ;:0^3b;:a^pb;:f^ooø 0         :~> 5 ;:0^3b;:a^pb;:f^ooø ^4b
+'
+Three operators: syntactic: case 10
+'
+    2 ;:a^pb;:f^ooø ·;:1^0b·f1a :~> 2 ;:1^0b;:a^pb;:f^ooø ··f1a
+'
+Three operators: syntactic: case 17
+'
+    3 ;:f^ooø ;:2;:1^0b·f1·f2   :~> 3 ;:2;:1^0b·f1;:f^ooø ·f2
+    3 ;:2;:1^0b·f1;:f^ooø ·f2   :~> 4 ;:2;:1^0b·f1;:f^ooø ·^332
+    4 ;:2;:1^0b·f1;:f^ooø ·^332 :~> 4 ;:2;:1^0b·f1;:f^ooø 2
+    4 ;:2;:1^0b·f1;:f^ooø 2     :~> 4 ;:2·f1;:1^0b;:f^ooø 2
+    4 ;:2·f1;:1^0b;:f^ooø 2     :~> 5 ;:2·^441;:1^0b;:f^ooø 2
+    5 ;:2·^441;:1^0b;:f^ooø 2   :~> 5 ;:21;:1^0b;:f^ooø 2
+    5 ;:21;:1^0b;:f^ooø 2       :~> 6 ;:2^5b;:1^0b;:f^ooø 2
+    6 ;:2^5b;:1^0b;:f^ooø 2     :~> 7 ;:2^5b;:1^0b;:f^ooø ^6b
+'
+Three operators: syntactic: case 20
+'
+    2 ;:a^pb;:f^ooø ;:1;:0·fa·f0·f1   :~> 2 ;:1;:0·fa·f0;:a^pb;:f^ooø ·f1
+    2 ;:1;:0·fa·f0;:a^pb;:f^ooø ·f1   :~> 3 ;:1;:0·fa·f0;:a^pb;:f^ooø ·^221
+    3 ;:1;:0·fa·f0;:a^pb;:f^ooø ·^221 :~> 3 ;:1;:0·fa·f0;:a^pb;:f^ooø 1
+    3 ;:1;:0·fa·f0;:a^pb;:f^ooø 1     :~> 3 ;:1·f0;:0·fa;:a^pb;:f^ooø 1
+    3 ;:1·f0;:0·fa;:a^pb;:f^ooø 1     :~> 4 ;:1·^330;:0·fa;:a^pb;:f^ooø 1
+    4 ;:1·^330;:0·fa;:a^pb;:f^ooø 1   :~> 4 ;:10;:0·fa;:a^pb;:f^ooø 1
+    4 ;:10;:0·fa;:a^pb;:f^ooø 1       :~> 5 ;:10;:0·^44a;:a^pb;:f^ooø 1
+    5 ;:10;:0·^44a;:a^pb;:f^ooø 1     :~> 5 ;:10;:0a;:a^pb;:f^ooø 1
+    5 ;:10;:0a;:a^pb;:f^ooø 1         :~> 6 ;:10;:0^5b;:a^pb;:f^ooø 1
+    6 ;:10;:0^5b;:a^pb;:f^ooø 1       :~> 7 ;:1^6b;:0^5b;:a^pb;:f^ooø 1
+    7 ;:1^6b;:0^5b;:a^pb;:f^ooø 1     :~> 8 ;:1^6b;:0^5b;:a^pb;:f^ooø ^7b
+'
