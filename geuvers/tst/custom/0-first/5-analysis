@@ -1,0 +1,49 @@
+
+
+
+First Analysis
+Zero operators:
+'
+    0 ø X i :~> 0 ø X i
+'
+One operator
+'
+    0 ø X ^pb :~> 1 ø X ^0b
+    0 ø X ·fa :~> 0 ø X ·fa
+'
+Two operators: syntactic
+'
+    0 ø X ^p^pb :~> 2 ø X ^0^1b
+    0 ø X ^p·fa :~> 1 ø X ^0·fa
+    0 ø X ·^pba :~> 1 ø X ·^0ba
+    0 ø X ·f^pb :~> 2 ø X ;:1^0b·f1
+    0 ø X ··faa :~> 0 ø X ··faa
+    0 ø X ·f·fa :~> 1 ø X ;:0·fa·f0
+'
+Three operators: syntactic
+'
+    0 ø X ^p^p^pb :~> 3 ø X ^0^1^2b
+    0 ø X ^p^p·fa :~> 2 ø X ^0^1·fa
+    0 ø X ^p·^pba :~> 2 ø X ^0·^1ba
+    0 ø X ^p·f^pb :~> 3 ø X ^0;:2^1b·f2
+    0 ø X ·^p^pba :~> 2 ø X ·^0^1ba
+    0 ø X ·^pb^pb :~> 3 ø X ;:2^1b·^0b2
+    0 ø X ·^p·faa :~> 1 ø X ·^0·faa
+    0 ø X ·^pb·fa :~> 2 ø X ;:1·fa·^0b1
+    0 ø X ·^pb^pb :~> 3 ø X ;:2^1b·^0b2
+    0 ø X ·f^p^pb :~> 3 ø X ;:2^0^1b·f2
+    0 ø X ··fa^pb :~> 2 ø X ;:1^0b··fa1
+    0 ø X ·f^p·fa :~> 2 ø X ;:1^0·fa·f1
+    0 ø X ··^pbaa :~> 1 ø X ··^0baa
+    0 ø X ··f^pba :~> 2 ø X ·;:1^0b·f1a
+    0 ø X ··fa^pb :~> 2 ø X ;:1^0b··fa1
+    0 ø X ···faaa :~> 0 ø X ···faaa
+    0 ø X ··f·faa :~> 1 ø X ·;:0·fa·f0a
+    0 ø X ··fa·fa :~> 1 ø X ;:0·fa··fa0
+    0 ø X ·^pb·fa :~> 2 ø X ;:1·fa·^0b1
+    0 ø X ·f·^pba :~> 2 ø X ;:1·^0ba·f1
+    0 ø X ·f·f^pb :~> 3 ø X ;:2;:1^0b·f1·f2
+    0 ø X ··fa·fa :~> 1 ø X ;:0·fa··fa0
+    0 ø X ·f··faa :~> 1 ø X ;:0··faa·f0
+    0 ø X ·f·f·fa :~> 2 ø X ;:1;:0·fa·f0·f1
+'

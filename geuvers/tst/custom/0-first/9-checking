@@ -1,0 +1,49 @@
+
+
+
+First Typification Predicate
+Zero operators:
+'
+    ;<iXø X i :~> True
+'
+One operator
+'
+          ;<bBø >PB ^0b :~> True
+    ;<aA;<f>AFø F   ·fa :~> True
+'
+Two operators: syntactic
+'
+          ;<bBø >P>PB ^0^1b     :~> True
+    ;<aA;<f>AFø >PF   ^0·fa     :~> True
+        ø X     ·^0ba     :~> True
+        ø X     ;:1^0b·f1 :~> True
+        ø X     ··faa     :~> True
+        ø X     ;:0·fa·f0 :~> True
+'
+Three operators: syntactic
+'
+    ø X ^0^1^2b         :~> True
+    ø X ^0^1·fa         :~> True
+    ø X ^0·^1ba         :~> True
+    ø X ^0;:2^1b·f2     :~> True
+    ø X ·^0^1ba         :~> True
+    ø X ;:2^1b·^0b2     :~> True
+    ø X ·^0·faa         :~> True
+    ø X ;:1·fa·^0b1     :~> True
+    ø X ;:2^1b·^0b2     :~> True
+    ø X ;:2^0^1b·f2     :~> True
+    ø X ;:1^0b··fa1     :~> True
+    ø X ;:1^0·fa·f1     :~> True
+    ø X ··^0baa         :~> True
+    ø X ·;:1^0b·f1a     :~> True
+    ø X ;:1^0b··fa1     :~> True
+    ø X ···faaa         :~> True
+    ø X ·;:0·fa·f0a     :~> True
+    ø X ;:0·fa··fa0     :~> True
+    ø X ;:1·fa·^0b1     :~> True
+    ø X ;:1·^0ba·f1     :~> True
+    ø X ;:2;:1^0b·f1·f2 :~> True
+    ø X ;:0·fa··fa0     :~> True
+    ø X ;:0··faa·f0     :~> True
+    ø X ;:1;:0·fa·f0·f1 :~> True
+'

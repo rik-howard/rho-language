@@ -1,0 +1,16 @@
+#!/bin/bash
+
+##
+# $ language/geuvers/bin/link [--proon]
+# links to the machine modules
+# needs to be called from rho/link-all
+##
+base=$(dirname $(dirname $(readlink -f $0)))
+home=$machine
+
+proon $base ^$base/.+$
+contains "$args" "$flag" && exit 0 ||
+linkq $home/apile/src/Apile       $base/lib/Apile
+linkq $home/apile/bin/test-unit   $base/bin/test-unit
+linkq $home/apile/bin/test-batch  $base/bin/test-batch
+linkq $home/apile/bin/test-custom $base/bin/test-custom

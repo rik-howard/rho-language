@@ -1,0 +1,49 @@
+
+
+
+First Variation
+Zero operators:
+'
+    i  :~>  i
+'
+One operator
+'
+    ^0b  :~>  0 b
+    ·fa  :~>  f a
+'
+Two operators: syntactic
+'
+    ^0^1b     :~> 0 1 b
+    ^0·fa     :~> 0 f a
+    ·^0ba     :~> 0 b a
+    ;:1^0b·f1 :~> 1 0 b f
+    ··faa     :~> f a
+    ;:0·fa·f0 :~> 0 f a
+'
+Three operators: syntactic
+'
+    ^0^1^2b         :~> 0 1 2 b
+    ^0^1·fa         :~> 0 1 f a
+    ^0·^1ba         :~> 0 1 b a
+    ^0;:2^1b·f2     :~> 0 2 1 b f
+    ·^0^1ba         :~> 0 1 b a
+    ;:2^1b·^0b2     :~> 2 1 b 0
+    ·^0·faa         :~> 0 f a
+    ;:1·fa·^0b1     :~> 1 f a 0 b
+    ;:2^1b·^0b2     :~> 2 1 b 0
+    ;:2^0^1b·f2     :~> 2 0 1 b f
+    ;:1^0b··fa1     :~> 1 0 b f a
+    ;:1^0·fa·f1     :~> 1 0 f a
+    ··^0baa         :~> 0 b a
+    ·;:1^0b·f1a     :~> 1 0 b f a
+    ;:1^0b··fa1     :~> 1 0 b f a
+    ···faaa         :~> f a
+    ·;:0·fa·f0a     :~> 0 f a
+    ;:0·fa··fa0     :~> 0 f a
+    ;:1·fa·^0b1     :~> 1 f a 0 b
+    ;:1·^0ba·f1     :~> 1 0 b a f
+    ;:2;:1^0b·f1·f2 :~> 2 1 0 b f
+    ;:0·fa··fa0     :~> 0 f a
+    ;:0··faa·f0     :~> 0 f a
+    ;:1;:0·fa·f0·f1 :~> 1 0 f a
+'

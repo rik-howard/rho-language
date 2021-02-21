@@ -1,0 +1,21 @@
+
+
+
+Combinator Typification Predicate
+PLC i, k, s:
+'
+    ø >OO           ^oo           :~> True
+    ø >P>QP         ^p^qp         :~> True
+'
+Er
+'
+                      ø >>W>VU>>WV>WU ^u^v^w··uw·vw :~> True
+              ;<u>W>VUø       >>WV>WU   ^v^w··uw·vw :~> True
+        ;<v>WV;<u>W>VUø           >WU     ^w··uw·vw :~> True
+    ;<wW;<v>WV;<u>W>VUø             U       ··uw·vw :~> True
+'
+Or
+'
+    ;<v>WV;<wWø V ·vw :~> True
+    ;<wW;<v>WVø V ·vw :~> True
+'
