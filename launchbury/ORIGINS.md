@@ -19,7 +19,7 @@
         | x
         | let x1 = e1, ..., xN = eN in e
 
-The process of normalisation can be specified in two stages.  The first, which we write as `ê`, is simply α-conversion: a renaming of all the bound variables in `e` using completely fresh variables.  The second, which we write as `e*`, ensures that function arguments are always variables.  It is defined as follows.  [Regulation]
+The process of normalisation can be specified in two stages.  The first, which we write as `ê`, is simply α-conversion: a renaming of all the bound variables in `e` using completely fresh variables [freshening].  The second, which we write as `e*`, ensures that function arguments are always variables.  It is defined as follows.  [Regulation]
 
     (λx.e)* = λx.(e*)
     x*      = x
